@@ -12,7 +12,10 @@
 | 示教数据集 | <https://huggingface.co/datasets/Shanshan777/lerobot_dataset_01_20261014_233057> |
 | W&B 训练日志 | <https://forge.coreweave.com/wandb/1808025338-tinghua/pi05/overview>（需要登录或项目权限） |
 | 详细操作手册 | [02-LeRobot-Pi05-微调操作手册.md](./docs/02-LeRobot-Pi05-微调操作手册.md) |
+| π₀.₅ 实现原理笔记 | [03-Pi05-实现细节与原理详解.md](./docs/03-Pi05-实现细节与原理详解.md) |
 | 失败复盘与下一轮实验 | [失败复盘与改进计划.md](./docs/失败复盘与改进计划.md) |
+
+**实现原理笔记**按本地 LeRobot 0.6.2 源码梳理双流架构、状态与图像输入、流匹配训练、注意力掩码、动作采样及关键张量形状，并附源码位置和最小复核示例。文中的默认配置与本项目实际训练设置应分别核对。
 
 ## 真机执行视频
 
