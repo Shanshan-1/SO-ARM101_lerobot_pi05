@@ -1,0 +1,12 @@
+# Keep model weights, dataset copies, and local training artifacts out of Git.
+*.safetensors
+/data/
+/datasets/
+/outputs/
+/wandb/
+/.venv/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+*.log
